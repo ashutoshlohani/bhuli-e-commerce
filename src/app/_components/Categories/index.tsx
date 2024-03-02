@@ -16,8 +16,7 @@ const Categories = ({ categories }: { categories: Category[] }) => {
 
       <div className={classes.list}>
         {categories.map(category => {
-          //   return <CategoryCard key={category.id} category={category} />
-          return 'xoxoxoxoxoxoxooxooxoxx'
+          return <CategoryCard key={category.id} category={category} />
         })}
       </div>
     </section>

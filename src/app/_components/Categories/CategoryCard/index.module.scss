@@ -9,6 +9,7 @@
   align-items: flex-end;
   justify-content: center;
   padding: 20px;
+  border-radius: 8px;
   cursor: pointer;
 
   background-size: cover;
@@ -17,9 +18,10 @@
 }
 
 .title {
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 16px;
   width: 100%;
   text-align: center;
   background-color: white;
+  opacity: 0.9;
 }
