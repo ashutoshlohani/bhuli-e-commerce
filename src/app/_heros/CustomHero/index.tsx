@@ -21,7 +21,6 @@ export const CustomHero: React.FC<Page['hero']> = ({ richText, media, links }) =
         style={{
           backgroundImage: `url(${mediaUrl})`,
           borderRadius: '8px',
-          backgroundPosition: 'center 30%',
         }}
       >
         <div className={classes.heroTextBox}>
