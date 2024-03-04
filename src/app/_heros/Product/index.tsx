@@ -24,7 +24,7 @@ export const ProductHero: React.FC<{
 
   return (
     <Fragment>
-      {!stripeProductID && (
+      {/* {!stripeProductID && (
         <Gutter>
           <Message
             className={classes.warning}
@@ -41,7 +41,7 @@ export const ProductHero: React.FC<{
             }
           />
         </Gutter>
-      )}
+      )} */}
       <Gutter className={classes.productHero}>
         <div className={classes.content}>
           <div className={classes.categories}>

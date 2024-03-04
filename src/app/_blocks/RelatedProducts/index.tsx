@@ -35,8 +35,8 @@ export const RelatedProducts: React.FC<RelatedProductsProps> = props => {
                 key={index}
                 className={[
                   classes.column,
-                  docs.length === 2 && classes['cols-half'],
-                  docs.length >= 3 && classes['cols-thirds'],
+                  // docs.length === 2 && classes['cols-half'],
+                  docs.length >= 1 && classes['cols-thirds'],
                 ]
                   .filter(Boolean)
                   .join(' ')}
